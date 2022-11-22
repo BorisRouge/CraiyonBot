@@ -1,6 +1,6 @@
 import psycopg2
 
-
+# TODO: ' in filepath causes a syntax error. cur.execute(psycopg2.errors.SyntaxError: syntax error at or near "s" LINE 2: ...(391302723,'image_storage/user:391302723/New Year's baby Yod...
 
 
 class Database:
